@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const [tasklist, setTasklist]= useState([]);
-  const [task, setTask] = useState({}); // empty obj + for individual obj 
+  const [task, setTask] = useState({}); // empty obj + for individual task
 
   return (
     <div className="App">  

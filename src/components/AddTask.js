@@ -20,10 +20,7 @@ export const AddTask = ({tasklist, setTasklist, task, setTask}) => {
         e.target.task.value = "";
     }
   }
-
-
-
-    
+  
     return (
       <section className='addTask'>
           <form onSubmit={handleSubmit}>
