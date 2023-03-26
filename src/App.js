@@ -9,7 +9,7 @@ function App() {
   const [task, setTask] = useState({}); // empty obj + for individual obj 
 
   return (
-    <div className="App">
+    <div className="App">  
       <Header />
       <AddTask
         tasklist={tasklist}
